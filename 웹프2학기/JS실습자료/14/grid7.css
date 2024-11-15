@@ -1,0 +1,15 @@
+.father {
+gap: 10px;
+display: grid;
+height: 100vh;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr minmax(250px, 1fr) 1fr;
+}
+.child {
+    background-color: tomato;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

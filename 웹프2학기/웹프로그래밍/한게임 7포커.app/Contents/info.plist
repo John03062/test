@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleExecutable</key>
+    <string>run.sh</string>
+    <key>CFBundleIconFile</key>
+    <string>shortcut.icns</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>1.0</string>
+    <key>CFBundleName</key>
+    <string>한게임 7포커.app</string>
+    <key>CFBundlePackageType</key>
+    <string>AAPL</string>
+  </dict>
+</plist>

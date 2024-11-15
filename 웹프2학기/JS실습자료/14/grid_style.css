@@ -1,0 +1,25 @@
+.father {
+    display: grid;
+    grid-template-columns: 100px 200px;
+
+    grid-template-rows: 200px 100px;
+    /* gap: 10px; */
+    gap: 10px;
+}
+
+.child {
+    background-color: tomato;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:last-child {
+    background-color: turquoise;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 2/-1;
+grid-column: span 2;
+}
